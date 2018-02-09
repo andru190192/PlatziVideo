@@ -6,4 +6,4 @@ import data from './src/api.json';
 const app = document.getElementById('app');
 
 //render(<Media title="Qué es responsive web Design ?" author="Andres Guachisaca" image="./images/covers/responsive.jpg"/>,app);
-render(<PlayList />,app);
+render(<Playlist data={data}/>,app);
